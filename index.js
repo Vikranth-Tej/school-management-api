@@ -24,7 +24,7 @@ app.post('/addSchool', (req, res) => {
 app.get('/listSchools', (req, res) => {
   const userLat = parseFloat(req.query.latitude);
   const userLong = parseFloat(req.query.longitude);
-  if (!userLat || !userLong) {
+  if (isNaN(userLat) || isNaN(userLong)) {
     return res.status(400).json({ error: 'Latitude and longitude are required' });
   }
 
