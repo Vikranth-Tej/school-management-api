@@ -1,6 +1,7 @@
+---
 
-```markdown
-# 🏫 School Management System (Fullstack App)
+```
+#🏫 School Management System (Fullstack App)
 
 This is a fullstack web application built to manage schools — including the ability to add school details and list them based on user location using **distance-based sorting** (Haversine formula).
 
@@ -161,3 +162,4 @@ npm start
 
 ---
 
+```
