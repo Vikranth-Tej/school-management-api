@@ -1,5 +1,3 @@
-Here’s a full, polished `README.md` file tailored for your **School Management Fullstack App** — with both backend and frontend, API usage, tech stack, folder structure, and deployment notes.
-
 ---
 
 ```markdown
@@ -7,6 +5,36 @@ Here’s a full, polished `README.md` file tailored for your **School Management
 
 This is a fullstack web application built to manage schools — including the ability to add school details and list them based on user location using **distance-based sorting** (Haversine formula).
 
+---
+
+## 📁 Folder Structure
+
+```
+
+school-management-api/
+├── controllers/
+├── models/
+├── routes/
+├── utils/
+├── school-frontend/        # Frontend React app
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       │   ├── AddSchoolForm.jsx
+│       │   └── SchoolList.jsx
+│       ├── App.js
+│       ├── index.js
+│       └── ...
+├── db.js                   # MySQL database config
+├── index.js                # Express backend entry point
+├── .env
+├── .gitignore
+├── package.json
+└── README.md
+
+````
+
+---
 
 ## 🧠 Tech Stack
 
@@ -133,8 +161,4 @@ npm start
 * Set `REACT_APP_BACKEND_URL=https://your-backend-url.onrender.com` in frontend `.env`
 
 ---
-
-## 🛡️ License
-
-This project is licensed under the MIT License.
 
