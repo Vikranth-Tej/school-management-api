@@ -1,4 +1,3 @@
----
 
 ```markdown
 # 🏫 School Management System (Fullstack App)
