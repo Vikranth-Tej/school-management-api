@@ -3,13 +3,29 @@
 import React from 'react';
 import AddSchoolForm from './components/AddSchoolForm';
 import SchoolList from './components/SchoolList';
+import './App.css';
 
 const App = () => {
   return (
-    <div style={{ maxWidth: '600px', margin: '2rem auto', fontFamily: 'Arial, sans-serif' }}>
-      <h1 style={{ textAlign: 'center' }}>🏫 School Management</h1>
-      <AddSchoolForm />
-      <SchoolList />
+    <div className="App">
+      <header className="App-header">
+        <h1>🏫 School Management Portal</h1>
+        <p className="App-subtitle">Add schools and find them by your location 📍</p>
+      </header>
+      
+      <main className="App-main">
+        <section className="App-section">
+          <AddSchoolForm />
+        </section>
+        <hr className="App-divider" />
+        <section className="App-section">
+          <SchoolList />
+        </section>
+      </main>
+
+      <footer className="App-footer">
+        <p>© 2025 Vikranth Tej | Made with ❤️ using React + Node.js</p>
+      </footer>
     </div>
   );
 };
