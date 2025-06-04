@@ -1,6 +1,5 @@
 ---
 
-```
 # 🏫 School Management System
 
 A fullstack app to add schools and list them by distance using the Haversine formula.
