@@ -6,35 +6,15 @@ A fullstack app to add schools and list them by distance using the Haversine for
 
 ---
 
-## 📁 Structure
 
-```
-
-school-management-api/
-├── controllers/
-├── models/
-├── routes/
-├── utils/
-├── school-frontend/
-│   └── src/components/
-│       ├── AddSchoolForm.jsx
-│       └── SchoolList.jsx
-├── db.js
-├── index.js
-└── .env, package.json, etc.
-
-````
-
----
-
-## 🧰 Tech Stack
+##  Tech Stack
 
 **Backend:** Node.js, Express, MySQL  
 **Frontend:** React, Axios
 
 ---
 
-## 🚀 API
+##  API
 
 ### `POST /addSchool`
 
@@ -53,7 +33,7 @@ Returns schools sorted by distance.
 
 ---
 
-## ⚙️ Run Locally
+##  Run Locally
 
 **Backend:**
 
@@ -79,14 +59,5 @@ DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=schoolDB
 PORT=3000
-```
 
----
-
-## 🌐 Deployment
-
-* Backend: Render (Node.js + MySQL)
-* Frontend: Render Static Site / GitHub Pages
-
-```
 ```
