@@ -51,7 +51,7 @@ npm install
 npm start
 ```
 
-**.env Example:**
+**.env file:**
 
 ```env
 DB_HOST=localhost
