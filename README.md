@@ -14,7 +14,6 @@ A full-stack application to add schools with geolocation data and list them by d
 **Database:** MySQL
 **Other:** RESTful API, Environment-based configuration.
 
-
 ---
 ## Features
 
