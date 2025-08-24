@@ -9,10 +9,10 @@ A full-stack application to add schools with geolocation data and list them by d
 
 ##  Tech Stack
 
-**Frontend:** React
-**Backend:** Node.js, Express, MySQL 
-**Database:** MySQL
-**Other:** RESTful API, Environment-based configuration.
+- **Frontend:** React
+- **Backend:** Node.js, Express, MySQL 
+- **Database:** MySQL
+- **And** RESTful API, Environment-based configuration.
 
 ---
 ## Features
