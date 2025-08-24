@@ -2,19 +2,28 @@
 
 # 🏫 School Management System
 
-A fullstack app to add schools and list them by distance using the Haversine formula.
+A full-stack application to add schools with geolocation data and list them by distance using the Haversine formula.
 
 ---
 
 
 ##  Tech Stack
 
-**Backend:** Node.js, Express, MySQL  
-**Frontend:** React, Axios
+**Frontend:** React
+**Backend:** Node.js, Express, MySQL 
+**Database:** MySQL
+**Other:** RESTful API, Environment-based configuration.
+
 
 ---
+## Features
 
-##  API
+- Add new schools with geolocation data.
+- Retrieve a list of schools sorted by proximity to the user's location.
+- Uses Haversine formula for accurate distance calculation.
+- RESTful API design with modular environment-based configuration.
+
+##  API Endpoints
 
 ### `POST /addSchool`
 
@@ -27,9 +36,31 @@ A fullstack app to add schools and list them by distance using the Haversine for
 }
 ````
 
-### `GET /listSchools?latitude=...&longitude=...`
+#### `GET /listSchools?latitude=...&longitude=...`
 
-Returns schools sorted by distance.
+Fetches a list of schools sorted by distance from the provided geolocation.
+
+## Example:
+
+```bash
+GET /listSchools?latitude=17.385&longitude=78.4867
+```
+
+Response:
+```
+[
+  {
+    "id": 1,
+    "name": "ABC School",
+    "address": "123 Main St",
+    "latitude": 17.385,
+    "longitude": 78.4867,
+    "distance": 0.0
+  },
+  ...
+]
+
+```
 
 ---
 
